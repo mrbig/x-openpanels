@@ -1,0 +1,35 @@
+X-OpenPanels
+
+This is the x-plane plugin for x-openpanels. This plugin supports writing
+the leds on the hardware device by reading different x-plane variables.
+
+You'll find the accompaniing firmware in the x-openpanels-hw project on
+github.
+
+This component is very simple, but you'll may use and modify it for your own
+needs.
+
+  Software requirements
+==============================
+
+ * X-Plane plugin SDK 
+     http://www.xsquawkbox.net/xpsdk/mediawiki/Main_Page
+
+
+  Compile and install
+==============================
+
+TrackMii currently does not have autoconfigure. To compile the X-Plane plugin
+at the project directory type:
+
+   make all
+
+and hopefully you'll get your plugin at dist/Plugin/GNU-Linux-x86/ named
+as openpanels_plugin.xpl
+
+Copy this file to the Resources/plugins/ directory of your X-Plane
+installation.
+
+
+Good luck, and if you have questions contact me at
+nagy.attila.gabor@gmail.com
