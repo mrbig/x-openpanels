@@ -19,7 +19,7 @@ needs.
   Compile and install
 ==============================
 
-TrackMii currently does not have autoconfigure. To compile the X-Plane plugin
+X-OpenPanels currently does not have autoconfigure. To compile the X-Plane plugin
 at the project directory type:
 
    make all
